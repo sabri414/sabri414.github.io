@@ -7,6 +7,8 @@ import AboutSabri from "./pages/AboutSabri";
 import Resume from "./pages/Resume";
 import ContactPage from "./pages/ContactPage";
 import ProjectsPage from "./pages/ProjectsPage";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 
 import { Routes, Route } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -75,6 +77,8 @@ export default function App() {
         <Route path="/philosophy" element={<Philosophy />} />
         <Route path="/about-sabri-abounozha" element={<AboutSabri />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
