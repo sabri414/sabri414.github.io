@@ -35,7 +35,7 @@ export const posts = [
 {
   slug: "consistency-is-quiet",
   title: "Consistency Is Quiet",
-  date: "12-21-2025",
+  date: "12-22-2025",
   excerpt: "Real progress doesn’t announce itself. It happens in silence, repetition, and patience.",
   tags: ["Discipline", "Mindset", "Self-Improvement"],
   content: [

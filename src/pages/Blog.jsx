@@ -1,7 +1,18 @@
 import { Link } from "react-router-dom";
 import { posts } from "../data/posts";
 
+function formatDate(dateStr) {
+  const d = new Date(dateStr);
+  // If date is not parseable, just return original
+  if (Number.isNaN(d.getTime())) return dateStr;
+  return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+}
+
 export default function Blog() {
+  const sortedPosts = [...posts].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
+
   return (
     <div className="min-h-screen bg-sabriGray text-sabriLight px-4 sm:px-6 py-16">
       <div className="max-w-4xl mx-auto">
@@ -13,7 +24,7 @@ export default function Blog() {
         </p>
 
         <div className="space-y-6">
-          {posts.map((p) => (
+          {sortedPosts.map((p) => (
             <Link
               key={p.slug}
               to={`/blog/${p.slug}`}
@@ -21,7 +32,7 @@ export default function Blog() {
             >
               <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
                 <h2 className="text-2xl font-title text-white">{p.title}</h2>
-                <span className="text-sm text-gray-400">{p.date}</span>
+                <span className="text-sm text-gray-400">{formatDate(p.date)}</span>
               </div>
 
               <p className="text-gray-300 mt-3">{p.excerpt}</p>
