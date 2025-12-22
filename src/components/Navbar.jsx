@@ -88,6 +88,9 @@ export default function Navbar() {
             <NavLink to="/projects" className={({ isActive }) => `${base} ${isActive ? "bg-white/10" : ""}`}>
               Projects
             </NavLink>
+            <NavLink to="/blog" className={({ isActive }) => `${base} ${isActive ? "bg-white/10" : ""}`}>
+            Blog
+          </NavLink>
             <NavLink to="/contact" className={({ isActive }) => `${base} ${isActive ? "bg-white/10" : ""}`}>
               Contact
             </NavLink>
