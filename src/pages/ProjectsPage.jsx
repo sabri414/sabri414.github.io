@@ -34,7 +34,20 @@ const PROJECTS = [
       github: "https://github.com/sabri414/FlightSearchApp",
       demo: ""
     }
-  }
+  },
+  {
+  title: "Music Application",
+  description: "Music application built with Javascript that allows users to create, replace, update, and delete audio content through a clean and intuitive interface. This project focuses on architecture, user interaction design, and state management within a native environment.",
+  github: "https://github.com/sabri414/MusicApplication",
+  tech: ["JavaScript", "CSS", "HTML", "Web Development"]
+},
+{
+  title: "Magic Math",
+  description: "Interactive Web application designed to help users practice and improve their math skills through a structured and engaging interface. The project emphasizes logical problem-solving, dynamic UI updates, and building responsive web applications using JavaScript.",
+  github: "https://github.com/sabri414/MagicMath",
+  tech: ["JavaScript", "CSS", "HTML", "Web Development"]
+}
+
 ];
 
 const ALL_TAGS = ["All", "Web", "Android", "React", "Kotlin", "Jetpack Compose", "Room", "Team", "Capstone"];
