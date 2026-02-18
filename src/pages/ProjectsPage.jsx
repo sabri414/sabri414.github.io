@@ -56,12 +56,45 @@ const PROJECTS = [
     github: "https://github.com/sabri414/MagicMath",
     demo: ""
   }
+},
+{
+  name: "Cool 3D Torus",
+  tagline: "3D geometry + transformations",
+  description:
+    "Computer graphics project that renders a 3D torus and explores core 3D concepts like transformations, camera perspective, and geometry setup. Built to strengthen my understanding of 3D rendering pipelines and scene composition.",
+  tags: ["Graphics", "3D", "OpenGL", "Shaders"],
+  links: {
+    github: "https://github.com/sabri414/Cool3DTorus",
+    demo: ""
+  }
+},
+{
+  name: "Animated Carousel Horse",
+  tagline: "Animation + scene motion",
+  description:
+    "Computer graphics project that animates a carousel horse within a 3D scene. Focused on smooth motion, timing, and transformation hierarchies—building an intuition for animation loops and object movement in 3D environments.",
+  tags: ["Graphics", "3D", "Animation", "OpenGL"],
+  links: {
+    github: "https://github.com/sabri414/AnimatedCarouselHorse",
+    demo: ""
+  }
+},
+{
+  name: "3D Dog Lighting",
+  tagline: "Lighting + shading practice",
+  description:
+    "3D graphics project exploring lighting and shading techniques on a dog model. Built to practice how light direction, intensity, and material properties affect a scene—helping me understand the fundamentals behind realistic rendering.",
+  tags: ["Graphics", "3D", "Lighting", "Shaders"],
+  links: {
+    github: "https://github.com/sabri414/3DDogLighting",
+    demo: ""
+  }
 }
 
 
 ];
 
-const ALL_TAGS = ["All", "Web", "Android", "React", "Kotlin", "Jetpack Compose", "Room", "Team", "Capstone", "JavaScript", "HTML", "CSS"];
+const ALL_TAGS = ["All", "Web", "Android", "React", "Kotlin", "Jetpack Compose", "Room", "Team", "Capstone", "JavaScript", "HTML", "CSS", "Graphics", "3D", "OpenGL", "Shaders", "Animation", "Lighting"];
 
 function ProjectCard({ project }) {
   return (
