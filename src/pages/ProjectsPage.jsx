@@ -89,6 +89,50 @@ const PROJECTS = [
     github: "https://github.com/sabri414/3DDogLighting",
     demo: ""
   }
+},
+{
+  name: "KeyTime Animation",
+  tagline: "Keyframe-based animation system",
+  description:
+    "Computer graphics project implementing keyframe (keytime) animation to control object motion over time. Focused on interpolation, timing control, and smooth transitions between animation states within a 3D environment.",
+  tags: ["Graphics", "3D", "Animation", "OpenGL"],
+  links: {
+    github: "https://github.com/sabri414/KeyTimeAnimation",
+    demo: ""
+  }
+},
+{
+  name: "Texture Mapping",
+  tagline: "2D textures applied to 3D geometry",
+  description:
+    "Graphics project exploring texture mapping techniques by applying 2D images onto 3D surfaces. Strengthened understanding of UV coordinates, texture sampling, and how shaders integrate image data into rendering pipelines.",
+  tags: ["Graphics", "3D", "OpenGL", "Shaders", "Texture Mapping"],
+  links: {
+    github: "https://github.com/sabri414/TextureMapping",
+    demo: ""
+  }
+},
+{
+  name: "Snake Shader",
+  tagline: "Custom GLSL shader effects",
+  description:
+    "Shader-focused graphics project using GLSL to create dynamic visual effects. Explored fragment shader manipulation, color transformations, and procedural animation techniques within the GPU rendering pipeline.",
+  tags: ["Graphics", "Shaders", "GLSL", "OpenGL"],
+  links: {
+    github: "https://github.com/sabri414/SnakeShaders",
+    demo: ""
+  }
+},
+{
+  name: "Dino Shader 2",
+  tagline: "Advanced lighting + shader experimentation",
+  description:
+    "Advanced shader project experimenting with lighting models and fragment shader logic on a 3D dinosaur model. Focused on understanding light interaction, material properties, and programmable shading techniques.",
+  tags: ["Graphics", "3D", "Shaders", "GLSL", "Lighting"],
+  links: {
+    github: "https://github.com/sabri414/DinoShaders2",
+    demo: ""
+  }
 }
 
 
