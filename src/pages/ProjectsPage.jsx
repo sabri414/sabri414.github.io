@@ -133,12 +133,89 @@ const PROJECTS = [
     github: "https://github.com/sabri414/DinoShaders2",
     demo: ""
   }
-}
+},
+{
+  name: "OpenMP Experiment",
+  tagline: "Intro to parallel programming",
+  description:
+    "Exploratory project using OpenMP to parallelize computational workloads. Focused on thread management, performance benchmarking, and analyzing speedup across multiple CPU cores.",
+  tags: ["Parallel Computing", "C++", "OpenMP", "Performance"],
+  links: {
+    github: "https://github.com/sabri414/OpenMP-Experiment",
+    demo: ""
+  }
+},
+{
+  name: "Monte Carlo Parallel Simulation",
+  tagline: "Parallel stochastic simulation",
+  description:
+    "Parallel Monte Carlo simulation implemented to improve execution speed using multi-threaded computation. Demonstrates workload distribution, synchronization, and statistical performance evaluation.",
+  tags: ["Parallel Computing", "C++", "OpenMP", "Simulation"],
+  links: {
+    github: "https://github.com/sabri414/monte-carlo-parallel-simulation",
+    demo: ""
+  }
+},
+{
+  name: "Functional Decomposition (Parallel)",
+  tagline: "Task-based parallel architecture",
+  description:
+    "Parallel programming project implementing functional decomposition to divide complex computation into concurrent stages. Emphasized pipeline parallelism and coordination between processing components.",
+  tags: ["Parallel Computing", "C++", "OpenMP", "Architecture"],
+  links: {
+    github: "https://github.com/sabri414/Functional-Decomposition",
+    demo: ""
+  }
+},
+{
+  name: "Parallel K-Means Clustering",
+  tagline: "Real-world clustering acceleration",
+  description:
+    "Parallelized implementation of the K-Means clustering algorithm designed to improve performance on large datasets. Focused on data partitioning, convergence optimization, and measuring computational speedup.",
+  tags: ["Parallel Computing", "C++", "Algorithms", "K-Means"],
+  links: {
+    github: "https://github.com/sabri414/K-means-Parallel-programming-challenge",
+    demo: ""
+  }
+},
+{
+  name: "SSE Vectorized Array Operations",
+  tagline: "SIMD performance optimization",
+  description:
+    "Performance optimization project using SSE intrinsics to implement vectorized array multiplication and reduction. Demonstrates low-level CPU optimization techniques and SIMD acceleration.",
+  tags: ["Parallel Computing", "C++", "SSE", "SIMD", "Performance"],
+  links: {
+    github: "https://github.com/sabri414/Vectorized-Array-Multiplication-and-Multiplication-Reduction-using-SSE",
+    demo: ""
+  }
+},
 
+{
+  name: "CUDA Monte Carlo Simulation",
+  tagline: "GPU-accelerated computation",
+  description:
+    "GPU-based Monte Carlo simulation implemented using CUDA to leverage massive parallelism. Explores kernel design, memory management, and GPU performance scaling.",
+  tags: ["Parallel Computing", "CUDA", "GPU", "Simulation"],
+  links: {
+    github: "https://github.com/sabri414/CUDA-Monte-Carlo-Simulation",
+    demo: ""
+  }
+},
 
+{
+  name: "OpenCL Quadratic Regression",
+  tagline: "Cross-platform GPU computation",
+  description:
+    "OpenCL implementation of quadratic regression accelerated using GPU computation. Focused on device management, kernel execution, and comparing CPU vs GPU performance.",
+  tags: ["Parallel Computing", "OpenCL", "GPU", "Performance"],
+  links: {
+    github: "https://github.com/sabri414/OpenCL-Quadratic-Regression",
+    demo: ""
+  }
+},
 ];
 
-const ALL_TAGS = ["All", "Web", "Android", "React", "Kotlin", "Jetpack Compose", "Room", "Team", "Capstone", "JavaScript", "HTML", "CSS", "Graphics", "3D", "OpenGL", "Shaders", "Animation", "Lighting"];
+const ALL_TAGS = ["All", "Web", "Android", "React", "Kotlin", "Jetpack Compose", "Room", "Team", "Capstone", "JavaScript", "HTML", "CSS", "Graphics", "3D", "OpenGL", "Shaders", "Animation", "Lighting", "GLSL", "Texture Mapping", "Parallel Computing", "C++", "Performance", "Simulation", "Architecture", "Algorithms", "K-Means", "SSE", "SIMD", "CUDA", "GPU", "OpenCL"];
 
 function ProjectCard({ project }) {
   return (
